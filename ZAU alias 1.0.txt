@@ -1,0 +1,140 @@
+Chicago ARTCC (vZAU)
+Alias File
+07/01/17
+
+////////////////PDC////////////////
+
+.ordpdc .msg $aircraft ACARS BEGINFLIGHT $callsign $dep $arrPDC $aircraft $squawk $dep $type($aircraft)$cruise$dep $route $arr ---ALL ACFT CLIMB VIA ORD2 DEPARTURE TO 5000------CHECK ATIS FOR RWY---ACARS END
+
+.mdwpdc .msg $aircraft ACARS BEGIN FLIGHT $callsign $dep $arr PDC $aircraft $squawk $dep $type($aircraft) $cruise $dep $route $arr $1 ---ALL ACFT CLIMB VIA MDW2 DEPARTURE TO 3000------CHECK ATIS FOR RWY---ACARS END
+
+.pdcc .msg $aircraft ACARS BEGINFLIGHT $callsign $dep $arr PDC $aircraft $squawk $dep $type($aircraft) $cruise $dep $route $arr $1 ---ALL ACFT CLIMB TO 5000------CHECK ATIS FOR RWY---ACARS END
+
+.pdcu ---UNABLE TO ISSUE PDC------AMENDMENTS NECESSARY------CONTACT APPROPRIATE DEL FREQ---
+
+/////////////////GND////////////////
+
+.taxi runway $1 , taxi via $2
+.taxihs runway $1 , taxi via $2 hold short runway $1 at $2
+.taxicross cross runway $1 at $2
+.taxicrosshs cross runway $1 at $2 , hold short runway $3 at $4
+.tower contact tower on $1
+.approach contact approach on $1
+.center contact center on $1
+.pba pushback onto taxiway $1 is approved, call for taxi
+.pbd pushback at your discretion, call for taxi
+.checksq check your squawk code, squawk $squawk.
+.sqn squawk normal / Mode C
+.sq squawk $squawk.
+.cor clearance on request, standby...
+.cor# clearance on request, standby, you are number $1 in sequence...
+.pref preferred route to $arr is
+.can - can you accept?
+.preftec preferred route to $arr is $route - can you accept?
+
+
+////////////////////TWR////////////////
+.to wind $winds, runway $1, cleared for takeoff.
+.torwy fly runway heading, wind $winds, runway $1, cleared for takeoff.
+.codp contact departure
+.coption wind $winds, runway $1, cleared for the option.
+.msi make straight in runway $1, $arr altimeter $altim($arr).
+.elb enter left base runway $1, $arr altimeter $altim($arr).
+.erb enter right base runway $1, $arr altimeter $altim($arr).
+.eld enter left downwind runway $1, $arr altimeter $altim($arr).
+.erd enter right downwind runway $1, $arr altimeter $altim($arr).
+.cjb caution, jet blast.
+.cwt caution, wake turbulence.
+
+//////////////////////APP/DEP//////////////
+.chirc chicago departure, radar contact, climb and maintain 15 thousand, proceed direct $1, resume own navigation
+
+.ord28r .ff WILLT ADAME WAVIE ROCSE BLUTO  RICKV MOTT
+.ord28c .ff SEIKA HAZIL RZUKO MEMAW KOENN SNTOE LNDUH 
+.ord28l .ff PONCC CAKOS FITAR HANSO JAVON KEGNE LYSIN
+.ord27l .ff SIBLY BONZO HAREE WELEV IYLEK JOKKR VINYY
+.ord27r .ff TAFFS EBENS BASHH  RIPPR GRABL JOEBO NRMAH
+.ord4r .ff RAHNN DEGAN HARRL NAPER REKKS
+.ord9l .ff JHONN ESSSS VNDER ILIUM TRYXI DOOGY ZENAH OGSIE 
+.ord9r .ff ADLMN FOTTR WASCO GEMMS CHILR DEVON LANSE
+.ord10c .ff BAIRY COUPR KYLAA PEPAW SHARN RRUDA RAYYY
+.ord10l .ff ARIST KALZO BURKE SYSCO PRATT CARLE BUGSE 
+.ord15 .ff CUBGO BIFLE MISCH CHSTR 
+.ord22l .ff LAIKE KENIL
+.ord22r .ff RIDGE NOLEN FNUCHq
+.mdw4r .ff BANER CADON CITGO OLOXE 
+.mdw31c .ff HILLS GLEAM  RUNTS HOBEL
+.mdw13c .ff HEBKU  HITOB 
+.sbn9r .ff PRAIR KNUTE
+.sbn27l .ff  MISHA
+.msn21 .ff HOBIG DIVCE
+.msn18 .ff DECAL GATNE  RUKIY JOGR
+.msn36 .ff PACOV CUKRA OZMIX  ZIMIT 
+.alo12 .ff EYUCE CULCA 
+.arr9 .ff TOBBY WOLFF
+.azo35 .ff ZEXOS AUSTN 
+.bmi20 .find OLIDE  LH 
+.bmi29 .ff ANNAY FEXIK 
+.bmi2 .ff HUPAD CIGIG 
+.btl23r .ff CFVNZ BATOL
+.cid9 .ff FONER OPHAW
+.cid27 .ff CFBBB WAVUM
+.cmi32r .ff VEALS JAVOM
+.dbq36 .ff GOLDN 
+.dpa2l .ff BOMER SPNCE .find JOT
+.dvn15 .ff IXIWU OTALE  YIKUT 
+.enw7l .ff CODEE
+.fwa5 .ff CFCGJ JIVBU HOONS  
+.fwa32 .ff JEGPU LILRE ZINOM
+.grr8r .ff JAKES GLAWE 
+.grr26l .ff CFBZJ KNOBS GLGHR
+.grr35 .ff SKWID CALDO LMBAW .find VIO
+.gus5 .ff CANDO BEUKE AVCOB
+.gus23 .ff OLCER GOETH
+.gyy30 .ff WASTU  RONOY
+.jvl4 .ff WITGO WEAVE
+.jvl32 .ff TIRRO JODER FOGAS 
+.laf10 EARLE VAGES
+.mke1l .ff NOVAC CUTMO 
+.mke7r .ff BONOT FIDNO HULOX
+.mke19r .ff ADELE OMOGE  BAYZE 
+.mkg24 .ff GUTPE ONTUE PEEPL 
+.mli9 .ff TOCKY SKRAP ZIKRA
+.mli27 .ff CFBDB KAYES 
+.mut24 .ff JOLIX 
+.osh36 .ff CFBSM POBER 
+.pia4 .ff SADEE PADLL JINUL
+.pia13 .ff GREGG ADLER
+.pia31 .ff CFCBJ TUNGG 
+.pwk16 .ff PAMME .find obk
+.rac4 .ff FIXAX PASER 
+.rfd1 .ff KENNY GILMY
+.rfd7 .ff BXCNB UDOYL 
+.ugn23 .ff TALOR WAUKE WISIL 
+
+.fh fly heading $1
+.trh turn right heading $1
+.tlf turn left heading $1
+.dm descend and maintain $1 thousand
+.cm climb and maintain $1 thousand
+.expectvis expect the visual approach runway $1
+.expectils expect the ILS approach runway $1
+.expectrnav expect the RNAV approach runway $1
+.contact contact $1 on $2
+.contactctr contact chicago center on 127.8
+.contacttwr contact tower
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
