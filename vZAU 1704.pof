@@ -1,0 +1,332 @@
+;Chicago ARTCC (ZAU) Position File
+;
+;File uses following format
+;NAME:RNAME:FREQ:SECID:ARTSTAG:CALLPREFIX:CALLSUFFIX:LINE1:LINE2:LSQUAWK:HSQUAWK
+;
+;NAME = SECTOR NAME
+;RNAME = RADIO CALLSIGN
+;FREQ = FREQUENCY MATCH FOR THIS POSITION
+;SECID = SECTOR ID USED FOR HANDOFFS & ATC-ATC COMMS
+;ARTSTAG = POSITION SYMBOL ON THE ARTS SCOPE
+;CALLPREFIX = PREFIX MATCH FOR THIS POSITION
+;CALLSUFFIX = SUFFIX MATCH FOR THIS POSITION
+;LINE1 = FIRST LINE TO DISPLAY ON EACH KEY IN VSCS
+;LINE2 = SECOND LINE TO DISPLAY ON EACH KEY IN VSCS
+;LSQUAWK = LOW END OF SQUAWK RANGE FOR THIS POSITION
+;HSQUAWK = HIGH END OF SQUAWK RANGE FOR THIS POSITION
+;
+;***************
+;Cleveland ARTCC
+;***************
+Cleveland Center (Low 64 - East/Combined):Cleveland Center:134.900:C64:C:CLE:CTR:CLE:CTR:5701:5777
+Cleveland Center (Low 40 - West):Cleveland Center:127.900:40:C40:CLE:CTR:CLE:CTR:5701:5777
+Cleveland Center (Low 12):Cleveland Center:126.750:12:C12:CLE:CTR:CLE:CTR:5701:5777
+Cleveland Center (Low 20):Cleveland Center:132.250:20:C20:CLE:CTR:CLE:CTR:5701:5777
+Cleveland Center (Low 30):Cleveland Center:120.770:30:C30:CLE:CTR:CLE:CTR:5701:5777
+Cleveland Center (Low 53):Cleveland Center:124.400:53:C53:CLE:CTR:CLE:CTR:5701:5777
+Cleveland Center (Low 71):Cleveland Center:134.470:71:C71:CLE:CTR:CLE:CTR:5701:5777
+Cleveland Center (High 77 - East/Combined):Cleveland Center:134.120:77:C77:CLE:CTR:CLE:CTR:5701:5777
+Cleveland Center (High 28 - West):Cleveland Center:135.720:28:C28:CLE:CTR:CLE:CTR:5701:5777
+Cleveland Center (High 46):Cleveland Center:126.970:46:C46:CLE:CTR:CLE:CTR:5701:5777
+Cleveland Center (High 66):Cleveland Center:125.420:66:C66:CLE:CTR:CLE:CTR:5701:5777
+
+;******************
+;Indianapolis ARTCC
+;******************
+Indianapolis Center:Indy Center:119.550:ID:C:IND:CTR:IND:CTR:-:-
+
+;*****************
+;Kansas City ARTCC
+;*****************
+Kansas City Center Sector 41 (Topeka High):Kansas City Center:132.320:41:C:KC:CTR:KC:CTR:2101:2177
+Kansas City Center Sector 84 (St Louis High):Kansas City Center:134.670:84:C:KC:CTR:KC:CTR:2115:2132
+Kansas City Center Sector 68 (Garden City Low):Kansas City Center:125.720:68:C:KC:CTR:KC:CTR:2133:2146
+Kansas City Center Sector 98 (Emporia Low):Kansas City Center:127.720:98:C:KC:CTR:KC:CTR:2147:2162
+Kansas City Center Sector 54 (Farmington Low):Kansas City Center:127.470:54:C:KC:CTR:KC:CTR:2163:2177
+
+;*****************
+;Minneapolis ARTCC
+;*****************
+ZMP10 Princeton:Minneapolis Center:121.050:M10:C:MSP:CTR:MSP:10:3601:3677
+ZMP11 Alexandria:Minneapolis Center:133.400:M11:C:MSP:CTR:MSP:11:3601:3677
+ZMP12 White Cloud:Minneapolis Center:126.370:M12:C:MSP:CTR:MSP:12:3601:3677
+ZMP17 Rochester:Minneapolis Center:134.250:M17:C:MSP:CTR:MSP:17:3601:3677
+ZMP2  Traverse City:Minneapolis Center:132.900:M2:C:MSP:CTR:MSP:2:3601:3677
+ZMP20 Huron:Minneapolis Center:126.250:M20:C:MSP:CTR:MSP:24:3601:3677
+ZMP24 Jamestown:Minneapolis Center:124.200:M24:C:MSP:CTR:MSP:24:3601:3677
+ZMP25 Bemidji:Minneapolis Center:134.750:M25:C:MSP:CTR:MSP:25:3601:3677
+ZMP30 Des Moines:Minneapolis Center:135.770:M30:C:MSP:CTR:MSP:30:3601:3677
+ZMP33 Pierre:Minneapolis Center:125.100:M33:C:MSP:CTR:MSP:33:3601:3677
+ZMP39 Hastings:Minneapolis Center:135.100:M39:C:MSP:CTR:MSP:39:3601:3677
+ZMP5  Eau Claire:Minneapolis Center:128.600:M6:C:MSP:CTR:MSP:6:3601:3677
+ZMP4  Rhinelander:Minneapolis Center:133.650:M4:C:MSP:CTR:MSP:4:3601:3677
+ZMP6  Farmington:Minneapolis Center:134.300:M6:C:MSP:CTR:MSP:6:3601:3677
+ZMP7  Rochester:Minneapolis Center:132.350:M7:C:MSP:CTR:MSP:7:3601:3677
+ZMP9  Redwood Falls:Minneapolis Center:127.100:M9:C:MSP:CTR:MSP:9:3601:3677
+
+;**************
+;Chicago Center
+;**************
+BEARZ (LO) Sector/Combined:Chicago Center:127.800:C35:C:CHI:CTR:CHI:CTR:1301:1377
+PLANO (LO) Sector:Chicago Center:135.150:C51:C:CHI:CTR:CHI:CTR:1301:1377
+KUBBS (LO) Sector:Chicago Center:133.200:C26:C:CHI:CTR:CHI:CTR:1301:1377
+FARMM (LO) Sector:Chicago Center:133.350:C74:C:CHI:CTR:CHI:CTR:1301:1377
+
+ROBERTS (HI) Sector:Chicago Center:134.020:C45:C:CHI:CTR:CHI:CTR:1301:1377
+BADGER (HI) Sector:Chicago Center:126.870:C60:C:CHI:CTR:CHI:CTR:1301:1377
+KEELER (HI) Sector:Chicago Center:127.620:C88:C:CHI:CTR:CHI:CTR:1301:1377
+IOWA CITY (HI) Sector:Chicago Center:125.570:C94:C:CHI:CTR:CHI:CTR:1301:1377
+
+;***********
+;Dubuque Cab
+;***********
+Dubuque Tower:DBQ_TWR:119.500:U1:T:DBQ:TWR:DBQ:TWR:1301:1377
+Dubuque Ground:DBQ_GND:121.800:U2:G:DBQ:GND:DBQ:GND:1301:1377
+
+;*******************
+;Cedar Rapids TRACON
+;*******************
+Cedar Rapids Approach:Cedar Rapids Approach:119.700:CIDA:A:CID:APP:CID:APP:5601:5617
+Cedar Rapids Departure:Cedar Rapids Departure:134.050:CIDD:D:CID:DEP:CID:DEP:5601:5617
+
+Cedar Rapids Tower:Cedar Rapids Tower:118.700:CT:T:CIDT:TWR:CID:TWR:5601:5617
+Cedar Rapids Ground:Cedar Rapids Ground:121.600:CG:G:CIDG:GND:CID:GND:5601:5617
+Cedar Rapids Clearance Delivery:Cedar Rapids Clearance Delivery:125.450:CIDC:D:CID:DEL:CID:DEL:5601:5617
+
+;****************
+;Champaign TRACON
+;****************
+Champaign Approach:Champaign Approach:121.350:CMIA:A:CMI:APP:CMI:APP:6560:6577
+Champaign Departure:Champaign Departure:132.850:CMID:D:CMI:DEP:CMI:DEP:6560:6577
+
+Champaign Tower:Champaign Tower:120.400:CMIT:T:CMI:TWR:CMI:TWR:6560:6577
+Champaign Ground:Champaign Ground:121.800:CMIG:G:CMI:GND:CMI:GND:6560:6577
+Champaign Clearance Delivery:Champaign Clearance Delivery:128.750:CMIC:D:CMI:DEL:CMI:DEL:6560:6577
+
+Decatur Tower:Decatur Tower:118.900:DECT:T:DEC:TWR:DEC:TWR:6560:6577
+Decatur Ground:Decatur Ground:121.750:DECG:G:DEC:GND:DEC:GND:6560:6577
+
+;**************
+;Chicago TRACON
+;**************
+Chicago Approach Kokomo Feeder:Chicago Approach:118.920:E:E:CHI:APP:CHI:APP:3101:3137:N041.58.42.971:W087.54.17.431
+Chicago Approach KUBBS Feeder:Chicago Approach:125.700J:J:CHI:APP:CHI:APP:3101:3137:N041.58.42.971:W087.54.17.431
+Chicago Approach FARMM Feeder:Chicago Approach:135.020:Y:Y:CHI:APP:CHI:APP:3101:3137:N041.58.42.971:W087.54.17.431
+Chicago Approach PLANO Feeder:Chicago Approach:135.070:X:X:CHI:APP:CHI:APP:3101:3137:N041.58.42.971:W087.54.17.431 
+
+Chicago Approach North Final:Chicago Approach:124.350:F:F:CHI:APP:CHI:APP:3101:3137:N041.58.42.971:W087.54.17.431
+Chicago Approach Central Final:Chicago Approach:119.000:Z:Z:CHI:APP:CHI:APP:3101:3137:N041.58.42.971:W087.54.17.431
+Chicago Approach South Final:Chicago Approach:133.620:W:W:CHI:APP:CHI:APP:3101:3137:N041.58.42.971:W087.54.17.431
+
+Chicago Approach North Sat Sector 1:Chicago Approach:120.550:A:A:CHI:APP:CHI:APP:3101:3137:N041.58.42.971:W087.54.17.431
+Chicago Approach South Sat Sector 1:Chicago Approach:128.200:S:S:CHI:APP:CHI:APP:3101:3137:N041.58.42.971:W087.54.17.431
+Chicago Approach South Sat Sector 2:Chicago Approach:119.350:P:P:CHI:APP:CHI:APP:3101:3137:N041.58.42.971:W087.54.17.431
+Chicago Approach South Sat Sector 3:Chicago Approach:133.500:L:L:CHI:APP:CHI:APP:3101:3137:N041.58.42.971:W087.54.17.431
+Chicago Approach South Sat Sector 4:Chicago Approach:127.870:U:U:CHI:APP:CHI:APP:3101:3137:N041.58.42.971:W087.54.17.431
+
+Chicago Departure East:Chicago Departure:125.000:B:B:CHI:DEP:CHI:DEP:3101:3137:N041.58.42.971:W087.54.17.431
+Chicago Departure North:Chicago Departure:134.400:D:D:CHI:DEP:CHI:DEP:3101:3137:N041.58.42.971:W087.54.17.431
+Chicago Departure West:Chicago Departure:135.270:G:G:CHI:DEP:CHI:DEP:3101:3137:N041.58.42.971:W087.54.17.431
+Chicago Departure South:Chicago Departure:126.620:M:M:CHI:DEP:CHI:DEP:3101:3137:N041.58.42.971:W087.54.17.431
+
+O'Hare Center Tower (Combined Local Position):O'Hare Tower:126.900:ORDTC:C:ORD:TWR:ORD:TWR:3150:3217:N041.58.42.971:W087.54.17.431
+O'Hare South Tower (SOUTH):O'Hare Tower:120.750:ORDTS:S:ORD:TWR:ORD:TWR:3150:3217:N041.58.42.971:W087.54.17.431
+O'Hare North Tower:O'Hare Tower:128.150:ORDTN:N:ORD:TWR:ORD:TWR:3150:3217:N041.58.42.971:W087.54.17.431
+
+O'Hare Ground Inbound (Combined Position) Ground:O'Hare Ground:121.900:ORDGI:G:ORD:GND:ORD:GND:3150:3217:N041.58.42.971:W087.54.17.431
+O'Hare Ground Outbound Ground:O'Hare Ground:121.750:ORDGO:G:ORD:GND:ORD:GND:3150:3217:N041.58.42.971:W087.54.17.431
+O'Hare North Ground:O'Hare Ground:134.150:ORDGN:G:ORD:GND:ORD:GND:3150:3217:N041.58.42.971:W087.54.17.431
+O'Hare South Ground:O'Hare Ground:118.050:ORDGS:G:ORD:GND:ORD:GND:3150:3217:N041.58.42.971:W087.54.17.431
+
+O'Hare Delivery:O'Hare Clearance Delivery:121.600:ORDC:D:ORD:DEL:ORD:DEL:3150:3217:N041.58.42.971:W087.54.17.431
+
+O'Hare Metering:O'Hare Ground Metering:121.670:ORDM:D:ORD:MET:ORD:MET:3150:3217:N041.58.42.971:W087.54.17.431
+
+Midway Tower:Midway Tower:118.700:MDWT:T:MDW:TWR:MDW:TWR:3101:3147
+Midway Ground:Midway Ground:121.650:MDWG:G:MDW:GND:MDW:GND:3101:3147
+Midway Clearance Delivery:Midway Clearance Delivery:124.620:MDWD:D:MDW:DEL:MDW:DEL:3101:3147
+
+Executive Tower:Execuative Tower:119.900:PWKT:T:PWK:TWR:PWK:TWR:3260:3267
+Executive Ground:Execuative Ground:121.700:PWKG:G:PWK:TWR:PWK:TWR:3260:3267
+Executive Clearance:Execuative Clearance Delivery:124.700:PWKC:D:PWK:TWR:PWK:TWR:3260:3267
+
+Aurora Tower:Aurora Tower:120.600:ARRT:T:ARR:TWR:ARR:TWR:3220:3227
+Aurora Ground:Aurora Ground:121.700:ARRG:G:ARR:GND:ARR:GND:3220:3277
+
+DuPage Tower:DuPage Tower:120.900:DPAT:T:DPA:TWR:DPA:TWR:3230:3237
+DuPage Ground:DuPage Ground:121.800:DPAG:G:DPA:GND:DPA:GND:3230:3237
+DuPage Clearance Delivery:DuPage Clearance Delivery:119.750:DPAC:DPA:DEL:DPA:DEL:3230:3237
+
+Gary Tower:Gary Tower:125.600:GYYT:T:GYY:TWR:GYY:TWR:3240:3247
+Gary Ground:Gary Ground:121.900:GYYG:G:GYY:GND:GYY:GND:3240:3247
+
+Waukegan Tower:Waukegan Tower:120.050:UGNT:T:UGN:TWR:UGN:TWR:3270:3277
+Waukegan Ground:Waukegan Ground:121.650:UGNG:G:UGN:GND:UGN:GND:3270:3277
+
+;*****************
+;Fort Wayne TRACON
+;*****************
+Fort Wayne Approach:Fort Wayne Approach:127.200:FWAA:A:FWA:APP:FWA:APP:6220:6237
+Fort Wayne Departure:FFort Wayne Departure:132.150:FWAD:D:FWA:DEP:FWA:DEP:6220:6237
+
+Fort Wayne Tower:Fort Wayne Tower:119.100:FWAT:T:FWA:TWR:FWA:TWR:6220:6237
+Fort Wayne Ground:Fort Wayne Ground:121.900:FWAG:G:FWA:GND:FWA:GND:6220:6237
+Fort Wayne Clearance Delivery:Fort Wayne Clearance Delivery:124.750:FWAD:D:FWA:DEL:FWA:DEL:6220:6237
+
+;*******************
+;Grand Rapids TRACON
+;*******************
+Grand Rapids Approach:Grand Rapids Approach:128.400:GRRA:A:GRR:APP:GRR:APP:6260:6277
+Grand Rapids Departure:Grand Rapids Departure:124.600:GRRD:D:GRR:DEP:GRR:DEP:6260:6277
+
+Grand Rapids Tower:Grand Rapids Tower:135.650:GRRT:T:GRR:TWR:GRR:TWR:6260:6277
+Grand Rapids Ground:Grand Rapids Ground:121.800:GRRG:G:GRR:GND:GRR:GND:6260:6277
+Grand Rapids Clearance Delivery:Grand Rapids Clearance Delivery:119.300:GRRC:D:GRR:DEL:GRR:DEL:6260:6277
+
+;**************
+;Grissom RAPCON
+;**************
+Grissom Approach West:Grissom Approach:121.050:GUSA:A:GUS:APP:GUS:APP:7210:7217
+Grissom Approach East:Grissom Approach:123.850:GUSB:B:GUS:APP:GUS:APP:7210:7217
+Grisson Departure:Grissom Departure:121.050:GUSD:D:GUS:DEP:GUS:DEP:7210:7217
+
+Grisson Tower:Grissom Tower:133.700:GUST:T:GUS:TWR:GUS:TWR:7210:7217
+Grissom Ground:Grissom Ground:128.420:GUSG:G:GUS:GND:GUS:GND:7210:7217
+Grisson Clearance Delivery:Grissom Clearance Delivery:123.700:GUSC:D:GUS:DEL:GUS:DEL:7210:7217
+
+Lafayette Tower:Lafayette Tower:119.600:LAFT:T:LAF:TWR:LAF:TWR:7200:7207
+Lafayette Ground:Lafayette Ground:121.900:LAFG:G:LAF:GND:LAF:GND:7200:7207
+
+;****************
+;Kalamazoo TRACON
+;****************
+Kalamazoo Approach:Kalamazoo Approach:121.200:AZOA:A:AZO:APP:AZO:APP:6240:6257
+Kalamazoo Departure:Kalamazoo Departure:119.200:AZOD:D:AZO:DEP:AZO:DEP:6240:6257
+
+Kalamazoo Tower:Kalamazoo Tower:118.300:AZOT:T:AZO:TWR:AZO:TWR:6240:6257
+Kalamazoo Ground:Kalamazoo Ground:121.900:AZOG:G:AZO:GND:AZO:GND:6240:6257
+Kalamazoo Clearance Delivery:Kalamazoo Clearance Delivery:121.750:AZOD:D:AZO:GND:AZO:GND:6240:6257
+
+Battle Creek Tower:Battle Creek Tower:126.825:BTLT:T:BTL:TWR:BTL:TWR:6250:6257
+Battle Creek Ground:Battle Creek Ground:121.700:BTLG:G:BTL:GND:BTL:GND:6250:6257
+
+;**************
+;Madison TRACON
+;**************
+Madison Approach:Madison Approach:135.450:MSNA:A:MSN:APP:MSN:APP:6540:6557
+Madison Departure:Madison Departure:126.850:MSND:D:MSN:DEP:MSN:DEP:6540:6557
+
+Madison Tower:Madison Tower:119.300:MSNT:T:MSN:TWR:MSN:TWR:6540:6557
+Madison Ground:Madison Ground:121.900:MSNG:G:MSN:GND:MSN:GND:6540:6557
+Madison Clearance Delivery:Madison Clearance Delivery:121.620:MSND:D:MSN:DEL:MSN:DEL:6540:6557
+
+;****************
+;Milwaukee TRACON
+;****************
+Milwaukee Approach:Milwaukee Approach:118.000:MKEA:A:MKE:APP:MKE:APP:3501:3557:N042.56.49.999:W087.53.47.699
+Milwaukee Approach:Milwaukee Approach:118.000:MKEA:A:MKE:APP:MKE:APP:3501:3557:N042.56.49.999:W087.53.47.699
+
+Milwaukee Departure West:Milwaukee Departure:125.350:MKEDW:D:MKE:DEP:MKE:DEP:3501:3557:N042.56.49.999:W087.53.47.699
+Milwaukee Departure East:Milwaukee Departure:135.870:MKEDE:D:MKE:DEP:MKE:DEP:3501:3557:N042.56.49.999:W087.53.47.699
+
+
+Mitchell Tower:Milwaukee Tower:124.570:MKET:T:MKE:TWR:MKE:TWR:3501:3527:N042.56.49.999:W087.53.47.699
+Mitchell Ground:Milwaukee Ground:121.800:MKEG:G:MKE:GND:MKE:GND:3501:3527:N042.56.49.999:W087.53.47.699
+Mitchell Clearance:Milwaukee Clearance Delivery:120.800:MKEC:D:MKE:DEL:MKE:DEL:3501:3527:N042.56.49.999:W087.53.47.699
+
+Kenosha Tower:Kenosha Tower:118.600:ENWT:T:ENW:TWR:ENW:TWR:3550:3557:N042.35.44.549:W087.55.40.091
+Kenosha Ground:Kenosha Ground:121.870:ENWG:G:ENW:GND:ENW:GND:3550:3557:N042.35.44.549:W087.55.40.091
+
+OskKosh Tower:OshKosh Tower:118.500:OSHT:T:OSH:TWR:OSH:TWR:1301:1377:N043.59.03.671:W088.33.25.351
+OshKosh Ground:OshKosh Ground:121.900:OSHG:G:OSH:GND:OSH:GND:1301:1377:N043.59.03.671:W088.33.25.351
+
+Timmerman Tower:Timmerman Tower:120.500:MWCT:T:MWC:TWR:MWC:TWR:3530:3537:N043.06.37.400:W088.02.03.919
+Timmerman Ground:Timmerman Ground:121.700:MWCG:G:MWC:GND:MWC:GND:3530:3537:N043.06.37.400:W088.02.03.919
+
+Waukesha Tower:Waukesha Tower:123.700:UEST:T:UES:TWR:UES:TWR:3540:3547:N043.02.27.701:W088.14.13.402
+Waukesha Ground:Waukesha Ground:121.600:UESG:G:UES:GND:UES:GND:3540:3547:N043.02.27.701:W088.14.13.402
+
+;***************
+;Muskegon TRACON
+;***************
+Muskegon Approach South:Muskegon Approach:133.820:MKGA:A:MKG:APP:MKG:APP:5660:5677
+Muskegon Approach North:Muskegon Approach:119.800:MKGD:D:MKG:APP:MKG:APP:5660:5677
+
+Muskegon Tower:Muskegon Tower:126.250:MKGT:T:MKG:TWR:MKG:TWR:5660:5677
+Muskegon Ground:Muskegon Ground:121.600:MKGG:G:MKG:GND:MKG:GND:5660:5677
+
+;*************
+;Peoria TRACON
+;*************
+Peoria Approach South:Peoria Approach:124.670:PIAA:A:PIA:APP:PIA:APP:5640:5657
+Peoria Approach North:Peoria Approach:125.800:PIAB:B:PIA:APP:PIA:APP:5640:5657
+
+Peoria Tower:Peoria Tower:124.000:PIAT:T:PIA:TWR:PIA:TWR:5640:5657
+Peoria Ground:Peoria Ground:121.850:PIAG:G:PIA:GND:PIA:GND:5640:5657
+
+Bloomington Tower:Bloomington Tower:124.600:BMIT:T:BMI:TWR:BMI:TWR:5650:5657
+Bloomington Ground:Bloomington Ground:121.650:BMIG:G:BMI:GND:BMI:GND:5650:5657
+
+;****************
+;Quad City TRACON
+;****************
+Quad City Approach:Quad City Approach:125.950:QDCA:A:MLI:APP:MLI:APP:5620:5637
+Quad City Departure:Quad City Departure:118.200:QDCD:D:MLI:DEP:MLI:DEP:5620:5637
+
+Quad City Tower:Quad City Tower:119.400:QDCT:T:MLI:TWR:MLI:TWR:5620:5637
+Quad City Ground:Quad City Ground:121.900:QDCG:G:MLI:GND:MLI:GND:5620:5637
+Quad City Clearance:Quad City Clearance Delivery:124.050:QDCC:D:MLI:DEL:MLI:DEL:5620:5637
+
+;***************
+;Rockford TRACON
+;***************
+Rockford Approach:Rockford Approach:121.000:RFDA:A:RFD:APP:RFD:APP:6501:6537
+Rockford Departure:Rockford Departure:126.000:RFDD:D:RFD:DEP:RFD:DEP:6501:6537
+
+Rockford Tower:Rockford Tower:118.100:RFDT:T:RFD:TWR:RFD:TWR:6501:6537
+Rockford Ground:Rockford Ground:121.900:RFDG:G:RFD:GND:RFD:GND:6501:6537
+Rockford Clearance:Rockford Clearance Delivery:119.250:RFDC:D:RFD:DEL:RFD:DEL:6501:6537
+
+Janesville Tower:Janesville Tower:118.800:JVLT:T:JVL:TWR:-:-:7270:7277
+Janesville Ground:Janesville Ground:121.650:JVLG:G:JVL:GND:-:-:7270:7277
+
+;*****************
+;South Bend TRACON
+;*****************
+South Bend Approach:South Bend Approach:118.550:SBNA:A:SBN:APP:SBN:APP:6201:6217
+South Bend Departure:South Bend Departure:132.050:SBND:D:SBN:DEP:SBN:DEP:6201:6217
+
+South Bend Tower:South Bend Tower:118.900:SBNT:T:SBN:TWR:SBN:TWR:6201:6217
+South Bend Ground:South Bend Ground:121.700:SBNG:G:SBN:GND:SBN:GND:6201:6217
+South Bend Clearance:South Bend Clearance Delivery:121.900:SBNC:D:SBN:DEL:SBN:DEL:6201:6217
+
+Elkhart Tower:Elkhart Tower:119.500:EKMT:T:EKM:TWR:EKM:TWR:6201:6217
+Elkhart Ground:Elkhart Ground:121.800:EKMG:G:EKM:GND:EKM:GND:6201:6217
+
+;***************
+;Waterloo TRACON
+;***************
+Waterloo Approach:Waterloo Approach:118.900:ALOA:A:ALO:APP:ALO:APP:3560:3577
+
+Waterloo Tower:Waterloo Tower:125.070:ALOT:T:ALO:TWR:ALO:TWR:3560:3577
+Waterloo Ground:Waterloo Ground:121.900:ALOG:G:ALO:GND:ALO:GND:3560:3577
+
+
+;-     Please note that the following beacon codes are still        -
+;-      available for use from our BEACON ALLOCATIONS LIST.         -
+;-                                                                  -
+;-                          External Codes                          -
+;-                           3250 - 3257                            -
+;-                                                    				-
+;-                           7210 - 7217                            -
+;-                           7220 - 7227                            -
+;-                           7230 - 7237                            -
+;-                           7240 - 7247                            -
+;-                           7250 - 7257                            -
+;-                           7260 - 7267                            -
+;-                                                                  -
+;-                          Internal Codes                          -
+;-                           0001 - 0077                            -
+;-                           4600 - 4677                            -
+;-                           5200 - 5377                            -
+;-                           5500 - 5577                            -
